@@ -63,15 +63,16 @@ article {
 
 }
 #artikkeliKuva {
-    width: 30%;
+    display: block;
+    margin-top: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2%;
     border-radius: 50%;
-    padding-right: 4%;
-    padding-bottom: 2%;
+    padding: 20px;
     width: 40%;
     height: 40%;
-    float: left;
 }
-
 hr {
     margin-left:4%;
     margin-right:4%;
