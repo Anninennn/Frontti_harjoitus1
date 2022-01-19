@@ -1,0 +1,95 @@
+#container {
+    max-width: 40%;
+    margin-bottom: 5%;
+    margin-left:auto;
+    margin-right:auto;
+    border: solid 1px #888;
+    border-radius: 6px;
+    background-color: #E8C2CA;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.295), 0 6px 20px 0 rgba(0, 0, 0, 0.226);
+}
+ h1 {
+    color: #555;
+    text-align: center;
+    letter-spacing: 10px;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    font-size: 250%;
+    font-family: Adobe Garamond Pro;
+}
+h2 {
+    color: #555;
+    padding-left: 4%;
+    letter-spacing: 5px;
+    font-size: 100%;
+    font-family: Adobe Garamond Pro;
+}
+#menu {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 1%;
+    overflow: hidden;
+}
+#menu a {
+    float: left;
+    display: block;
+    color: #555555;
+    text-align: center;
+    padding: 4% 3%;
+    text-decoration: none;
+    letter-spacing: 3px;
+}
+#menu a:hover {
+    color:#f9f9f9;
+}
+article {
+    background: #eaccd2;
+    padding-bottom: 1%;
+    margin: 4%;
+    overflow: hidden;
+}
+
+ p {
+    color: #555555;
+    font-family: Candara;
+    line-height: 25px;
+    letter-spacing: 1px;
+    padding-left: 4%;
+    padding-right: 2%;
+}
+#headerKuva {
+    width: 100%;
+    border-radius: 6px  6px  0  0;
+
+}
+#artikkeliKuva {
+    width: 30%;
+    border-radius: 50%;
+    padding-right: 4%;
+    padding-bottom: 2%;
+    float: left;
+}
+hr {
+    margin-left:4%;
+    margin-right:4%;
+    margin-top: 0;
+    margin-bottom: 0;
+    display: block; height: 1px;
+    border: 0; border-top: 1px solid #888;
+
+}
+#lista li {
+    letter-spacing: 1px;
+    font-family: Candara;
+    color: #555555;
+    line-height: 25px;
+}
+@media screen and (max-width: 600px) {
+    #container {
+        max-width: 95%;
+
+  }
+
+
+
+}
